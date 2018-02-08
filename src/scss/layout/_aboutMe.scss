@@ -1,0 +1,72 @@
+.aboutMe {
+    padding: 150px 0 75px;
+
+    @include tablet-pr {
+        padding: 50px 0 30px;
+    }
+}    
+    .aboutMe__wrap {
+        display: flex;
+        flex-wrap: wrap;
+
+        @include mobile {
+            justify-content: center;
+        }
+    }
+    
+    .left-column {
+        width: 60%;
+        padding-right: 60px;
+        
+        @include mobile {
+            flex-grow: 1;
+            width: 100%;
+            text-align: center;
+            padding: 0 25px;;
+        }
+
+        }
+        
+        .title {
+            letter-spacing: 3px;
+            margin: 25px 0 40px;
+            font-size: 2.5rem;
+            color: $accentColor;
+
+                span {
+                    color: red;
+                }
+                
+                @include tablet-pr {
+                    font-size: 2rem;
+                    margin: 20px 0 30px;
+                }
+            }
+            
+            .text {
+                font-family: $mainFontItalic;
+                line-height: 2;
+                margin: 0 0 50px;
+                color: $accentColor;
+
+                    @include tablet-pr {
+                        font-size: 0.85rem;
+                    }
+            }
+
+        
+        .right-column {
+            width: 40%;
+
+            @include mobile {
+                width: 60%;
+                order: -1;
+            }
+
+            .aboutMe__photo {
+                max-width: 100%;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+                margin: 15px 15px 15px 0;
+                border-radius: 5px;
+            }
+        }
