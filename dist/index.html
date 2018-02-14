@@ -186,7 +186,7 @@
 				<div class="container">
 					<h1 class="header__title">николай рыжков</h1>
 					<p class="header__subtitle">front-end developer</p>
-					<a href="#hi" class="button">
+					<a href="#hi" id="aboutMe" class="button">
 						<span class="button__title">обо мне</span>
 					</a>	
 				</div>
@@ -220,7 +220,7 @@
 							в своей отрасли. Но я точно могу сказать - я работаю над проектами с полной отдачей. Всегда открыт для интересных и новых задач.
 						</p>
 						<div class="btn-row">
-							<a href="#contact-modal" class="button button--aboutMe">
+							<a href="#modal-form" class="button button--aboutMe" data-modal="modal-form">
 								<span class="button__title">связаться</span>
 							</a>
 							<a href="CV_Mykola_Ryzhkov_FrontEndF.pdf" class="button button--aboutMe" target="_blank">
@@ -234,6 +234,7 @@
 				</div>
 			</div>
 		</section>
+		
 
 		<!-- SKILLS -->
 
@@ -292,9 +293,8 @@
 				<div class="works__gallery-wrap">
 					<ul class="works__list">
 						<li class="works__item sites">
-							<a href="" class="works__link">
+							<a href="#tanner" class="works__link" data-modal="modal-works">
 								<div class="works__img">
-									<div class="img__overlay"></div>	
 									<img src="img/tanner.jpg" alt="tanner">
 								</div>
 								<h4 class="works__item-title">Shop "Tanner"</h4>
@@ -302,9 +302,8 @@
 							</a>
 						</li>
 						<li class="works__item js">
-							<a href="" class="works__link">
+							<a href="#sedona" class="works__link" data-modal="modal-works">
 								<div class="works__img">
-									<div class="img__overlay"></div>	
 									<img src="img/tanner.jpg" alt="tanner">
 								</div>
 								<h4 class="works__item-title">Shop "Tanner"</h4>
@@ -312,9 +311,8 @@
 							</a>
 						</li>
 						<li class="works__item sites">
-							<a href="" class="works__link">
+							<a href="" class="works__link" data-modal="modal-works">
 								<div class="works__img">
-									<div class="img__overlay"></div>	
 									<img src="img/tanner.jpg" alt="tanner">
 								</div>
 								<h4 class="works__item-title">Shop "Tanner"</h4>
@@ -322,9 +320,8 @@
 							</a>
 						</li>
 						<li class="works__item sites">
-							<a href="" class="works__link">
+							<a href="" class="works__link" data-modal="modal-works">
 								<div class="works__img">
-									<div class="img__overlay"></div>	
 									<img src="img/tanner.jpg" alt="tanner">
 								</div>
 								<h4 class="works__item-title">Shop "Tanner"</h4>
@@ -332,9 +329,8 @@
 							</a>
 						</li>
 						<li class="works__item js">
-							<a href="" class="works__link">
+							<a href="" class="works__link" data-modal="modal-works">
 								<div class="works__img">
-									<div class="img__overlay"></div>	
 									<img src="img/tanner.jpg" alt="tanner">
 								</div>
 								<h4 class="works__item-title">Shop "Tanner"</h4>
@@ -342,9 +338,8 @@
 							</a>
 						</li>
 						<li class="works__item sites">
-							<a href="" class="works__link">
+							<a href="" class="works__link" data-modal="modal-works">
 								<div class="works__img">
-									<div class="img__overlay"></div>	
 									<img src="img/tanner.jpg" alt="tanner">
 								</div>
 								<h4 class="works__item-title">Shop "Tanner"</h4>
@@ -372,14 +367,16 @@
 					</div>
 					<div class="right-column right-column--contact">
 						<form id="contact__form" class="contact__form">
-							<div class="form__left-column">
-								<input id ='name' type="text" placeholder="Имя *" name="name" required>
-								<input type="email" placeholder="E-mail *" name="email" required>
+							<div class="flex__wrap">
+								<div class="form__left-column">
+									<input id ='name' type="text" placeholder="Имя *" name="name" required>
+									<input type="email" placeholder="E-mail *" name="email" required>
+								</div>
+								<div class="form__right-column">
+									<textarea name="text" placeholder="Сообщение *" required></textarea>
+								</div>
+								<button id='btn' type="submit" class="button button--form button--aboutMe">Отправить</button>
 							</div>
-							<div class="form__right-column">
-								<textarea name="text" placeholder="Сообщение *" required></textarea>
-							</div>
-							<button id='btn' type="submit" class="button button--form button--aboutMe">Отправить</button>
 						</form>
 					</div>
 				</div>
@@ -443,28 +440,65 @@
 	<!--*********-->
 	<!-- MODULES -->
 	<!--*********-->
-
-	<!-- CONTACT FORM -->
-
-	<div id="contact-modal" class="contact-form">
-		<div class="contact-form__wrap">
-			<div class="cross"></div>
-			<h2 class="title">Давайте работать<span>.</span></h2>
-			<p class="text text--modal">
-				Ви работаете над чем-то интерестным? Я хотел бы помочь Вам в этом! Отправьте мне письмо и запустите свой проект прямо сейчас! Просто сделайте это!
-			</p>
-			<form id="modal-form" class="contact__form">
-				<div class="form__left-column form__left-column--modal">
-					<input type="text" placeholder="Имя *" name="name" required>
-					<input type="email" placeholder="E-mail *" name="email" required>
-				</div>
-				<div class="form__right-column">
-					<textarea name="text" placeholder="Сообщение *" required></textarea>
-				</div>
-				<button type="submit" class="button button--form button--aboutMe">Отправить</button>
-			</form>
+	
+	<!-- MODAL WINDOW -->
+	
+	<div id="modal__bgr" class="modal__bgr">
+		<div class="preloader">
+			<div class="cat">
+				<div class="large-circle"></div>
+				<div class="mid-circle"></div>
+				<div class="small-circle"></div>
+			</div>
 		</div>
+		
+		<!-- MODAL CONTACT FORM -->
+		
+		<div class="modal-window" id="modal-form">
+			<div class="cross"></div>
+			<div class="content__wrap">
+				<h2 class="title">Давайте работать<span>.</span></h2>
+				<p class="text text--modal">
+					Ви работаете над чем-то интерестным? Я хотел бы помочь Вам в этом! Отправьте мне письмо и запустите свой проект прямо сейчас! Просто сделайте это!
+				</p>
+				<form class="contact__form contact__form--modal">
+					<div class="flex__wrap">
+						<div class="form__left-column form__left-column--modal">
+							<input type="text" placeholder="Имя *" name="name" required>
+							<input type="email" placeholder="E-mail *" name="email" required>
+						</div>
+						<div class="form__right-column">
+							<textarea name="text" placeholder="Сообщение *" required></textarea>
+						</div>
+						<button type="submit" class="button button--form button--aboutMe">Отправить</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+			<!-- WORKS -->
+
+		<div class="modal-window" id="modal-works">
+			<div class="cross"></div>
+			<div class="content__wrap">
+				<h2 class="title"></h2>
+				<p class="text text--modal"></p>
+				<div class="modalImg__wrap">
+				</div>
+				<div class="modal__btn-wrap">
+					<a href="" class="button" target="_blank">
+						<span class="button__title">на сайт</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+			<!-- PRELOADER -->
+
+
+
 	</div>
+	
 
 	<!-- PAPER PLANE -->
 
