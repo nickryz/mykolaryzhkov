@@ -7,13 +7,34 @@
                 "imgSrc2@2x": "img/works/tanner/tanner_2@2x.jpg 2x",
                 "siteLink": "https://nickryz.github.io/tanner/",
                 "title": "TANNER",
-                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo id natus consequatur nulla assumenda velit soluta necessitatibus quisquam. Distinctio cumque ratione magni architecto commodi dolorem recusandae similique aspernatur laudantium modi dolores rem vel, laborum fugiat quis reprehenderit ex. Qui repellendus, enim aspernatur eveniet omnis accusamus commodi dolor eius veniam est magnam unde nulla cum quam fugit officiis eum culpa totam ducimus. Rem facere pariatur amet delectus iusto, animi ex hic explicabo earum maiores, labore a cumque aperiam voluptates ipsa modi ut similique nostrum voluptate officia numquam magni. Dignissimos sequi non ipsum repellendus sapiente fugiat illo, similique ex officia maiores possimus fugit laudantium voluptatum impedit nemo quaerat temporibus ratione aut harum eos corrupti voluptates? Molestiae quam in sint doloribus culpa perferendis quis minus quia iure tempore odio nisi blanditiis consequuntur autem voluptas optio, suscipit saepe distinctio non! Incidunt, ipsum a quos consequatur magnam blanditiis officia, aperiam enim placeat velit facilis sit aliquam voluptas iure? Voluptas, laboriosam! Ratione eaque et, cumque maxime, reiciendis ipsam exercitationem odio optio natus temporibus numquam eius consequatur dolorum neque reprehenderit rem ea unde tempora, omnis totam in illo ab molestias. Corrupti voluptate earum nesciunt, assumenda iste quis eveniet debitis mollitia iure ea error provident officiis distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo id natus consequatur nulla assumenda velit soluta necessitatibus quisquam. Distinctio cumque ratione magni architecto commodi dolorem recusandae similique aspernatur laudantium modi dolores rem vel, laborum fugiat quis reprehenderit ex. Qui repellendus, enim aspernatur eveniet omnis accusamus commodi dolor eius veniam est magnam unde nulla cum quam fugit officiis eum culpa totam ducimus. Rem facere pariatur amet delectus iusto, animi ex hic explicabo earum maiores, labore a cumque aperiam voluptates ipsa modi ut similique nostrum voluptate officia numquam magni. Dignissimos sequi non ipsum repellendus sapiente fugiat illo, similique ex officia maiores possimus fugit laudantium voluptatum impedit nemo quaerat temporibus ratione aut harum eos corrupti voluptates? Molestiae quam in sint doloribus culpa perferendis quis minus quia iure tempore odio nisi blanditiis consequuntur autem voluptas optio, suscipit saepe distinctio non! Incidunt, ipsum a quos consequatur magnam blanditiis officia, aperiam enim placeat velit facilis sit aliquam voluptas iure? Voluptas, laboriosam! Ratione eaque et, cumque maxime, reiciendis ipsam exercitationem odio optio natus temporibus numquam eius consequatur dolorum neque reprehenderit rem ea unde tempora, omnis totam in illo ab molestias. Corrupti voluptate earum nesciunt, assumenda iste quis eveniet debitis mollitia iure ea error provident officiis distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo id natus consequatur nulla assumenda velit soluta necessitatibus quisquam. Distinctio cumque ratione magni architecto commodi dolorem recusandae similique aspernatur laudantium modi dolores rem vel, laborum fugiat quis reprehenderit ex. Qui repellendus, enim aspernatur eveniet omnis accusamus commodi dolor eius veniam est magnam unde nulla cum quam fugit officiis eum culpa totam ducimus. Rem facere pariatur amet delectus iusto, animi ex hic explicabo earum maiores, labore a cumque aperiam voluptates ipsa modi ut similique nostrum voluptate officia numquam magni. Dignissimos sequi non ipsum repellendus sapiente fugiat illo, similique ex officia maiores possimus fugit laudantium voluptatum impedit nemo quaerat temporibus ratione aut harum eos corrupti voluptates? Molestiae quam in sint doloribus culpa perferendis quis minus quia iure tempore odio nisi blanditiis consequuntur autem voluptas optio, suscipit saepe distinctio non! Incidunt, ipsum a quos consequatur magnam blanditiis officia, aperiam enim placeat velit facilis sit aliquam voluptas iure? Voluptas, laboriosam! Ratione eaque et, cumque maxime, reiciendis ipsam exercitationem odio optio natus temporibus numquam eius consequatur dolorum neque reprehenderit rem ea unde tempora, omnis totam in illo ab molestias. Corrupti voluptate earum nesciunt, assumenda iste quis eveniet debitis mollitia iure ea error provident officiis distinctio!"
+                "text": "DISCRIPTION: &#160; Adaptive &#160; || &#160; HTML5 &#160; || &#160;  CSS3 &#160; || &#160; PURE JavaScript &#160;  || &#160;  SVG animation"
+            },
+    "#snake": 
+            {
+                "imgSrc1": "img/works/snake/snake.jpg",
+                "imgSrc1@2x": "img/works/snake/snake@2x.jpg",
+                "siteLink": "https://nickryz.github.io/snake-game/dist",
+                "title": "SNAKE",
+                "text": "DISCRIPTION: &#160; PURE JavaScript &#160;|| &#160; HTML5 &#160; || &#160; CSS3 &#160; || &#160; SVG"
+            },
+    "#glazer": 
+            {
+                "imgSrc1": "img/works/glazer/glazer_1.jpg",
+                "imgSrc2": "img/works/glazer/glazer_2.jpg",
+                "imgSrc1@2x": "img/works/glazer/glazer_1@2x.jpg",
+                "imgSrc2@2x": "img/works/glazer/glazer_2@2x.jpg",
+                "siteLink": "https://nickryz.github.io/glaze/",
+                "title": "GLAZER",
+                "text": "DISCRIPTION: &#160; Without Adaptive &#160; || &#160; HTML5 &#160; || &#160;  CSS3"
             },
     "#sedona": 
             {
-                "imgSrc1": "img/works/tanner/tanner_1.jpg",
-                "imgSrc2": "img/works/tanner/tanner_2.jpg",
-                "title": "TANNER",
-                "text": "html 5"
+                "imgSrc1": "img/works/sedona/sedona_1.jpg",
+                "imgSrc2": "img/works/sedona/sedona_2.jpg",
+                "imgSrc1@2x": "img/works/sedona/sedona_1@2x.jpg",
+                "imgSrc2@2x": "img/works/sedona/sedona_2@2x.jpg",
+                "siteLink": "https://nickryz.github.io/sedona/",
+                "title": "SEDONA",
+                "text": "DISCRIPTION: &#160; Adaptive &#160; || &#160; HTML5 &#160; || &#160;  CSS3"
             }
 }

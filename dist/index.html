@@ -36,7 +36,7 @@
 			<div class="nav-mobile__wrap">
 				<ul class="social__list--mobile">
 					<li class="social__item">
-						<a href="#" class="social__link">
+						<a href="https://www.linkedin.com/in/mykola-ryzhkov/" class="social__link" target="_blank">
 							<svg class="social__icon" viewBox="0 0 32 32">
 								<path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 
 										6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 
@@ -48,7 +48,7 @@
 						</a>
 					</li>
 					<li class="social__item">
-						<a href="#" class="social__link">
+						<a href="https://github.com/nickryz" class="social__link" target="_blank">
 							<svg class="social__icon" viewBox="0 0 32 32">
 								<path d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347
 										1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993
@@ -62,7 +62,7 @@
 						</a>
 					</li>
 					<li class="social__item">
-						<a href="#" class="social__link">
+						<a href="https://t.me/Nick_Ryzhkov" class="social__link" target="_blank">
 							<svg class="social__icon" viewBox="0 0 32 32">
 								<path d="M16 0c-8.838 0-16 7.162-16 16s7.162 16 16 16 16-7.163 16-16-7.163-16-16-16zM23.863 10.969l-2.625 12.369c-0.181 0.881-0.712 
 										1.087-1.45 0.681l-4-2.956-1.919 1.869c-0.225 0.219-0.4 0.4-0.8 0.4-0.519 0-0.431-0.194-0.606-0.688l-1.363-4.475-3.956-1.231c-0.856-0.262-0.862-0.85 
@@ -146,7 +146,7 @@
 			</div>
 			<ul class="social__list social__list--main">
 				<li class="social__item">
-					<a href="#" class="social__link">
+					<a href="https://www.linkedin.com/in/mykola-ryzhkov/" class="social__link" target="_blank">
 						<svg class="social__icon" viewBox="0 0 32 32">
 							<path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 
 									6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 
@@ -158,7 +158,7 @@
 					</a>
 				</li>
 				<li class="social__item">
-					<a href="#" class="social__link">
+					<a href="https://github.com/nickryz" class="social__link" target="_blank">
 						<svg class="social__icon" viewBox="0 0 32 32">
 							<path d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347
 									1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993
@@ -172,7 +172,7 @@
 					</a>
 				</li>
 				<li class="social__item">
-					<a href="#" class="social__link">
+					<a href="https://t.me/Nick_Ryzhkov" class="social__link" class="social__link" target="_blank">
 						<svg class="social__icon" viewBox="0 0 32 32">
 							<path d="M16 0c-8.838 0-16 7.162-16 16s7.162 16 16 16 16-7.163 16-16-7.163-16-16-16zM23.863 10.969l-2.625 12.369c-0.181 0.881-0.712 
 									1.087-1.45 0.681l-4-2.956-1.919 1.869c-0.225 0.219-0.4 0.4-0.8 0.4-0.519 0-0.431-0.194-0.606-0.688l-1.363-4.475-3.956-1.231c-0.856-0.262-0.862-0.85 
@@ -185,7 +185,7 @@
 			<div class="header__title-box">
 				<div class="container">
 					<h1 class="header__title">николай рыжков</h1>
-					<p class="header__subtitle">front-end developer</p>
+					<p id="mainSubtitle" class="header__subtitle"></p>
 					<a href="#hi" id="aboutMe" class="button">
 						<span class="button__title">обо мне</span>
 					</a>	
@@ -279,7 +279,7 @@
 			</div>
 		</section>
 	
-		<!-- works -->
+		<!-- WORKS -->
 
 		<section id="works" class="works">
 			<div class="container">
@@ -295,55 +295,37 @@
 						<li class="works__item sites">
 							<a href="#tanner" class="works__link" data-modal="modal-works">
 								<div class="works__img">
-									<img src="img/tanner.jpg" alt="tanner">
+									<img src="img/tanner.jpg" srcset="img/tanner@2x.jpg 2x" alt="tanner">
 								</div>
 								<h4 class="works__item-title">Shop "Tanner"</h4>
 								<time class="works__item-date" datetime="2018-01-10">Январь, 2018</time>
 							</a>
 						</li>
 						<li class="works__item js">
+							<a href="#snake" class="works__link" data-modal="modal-works">
+								<div class="works__img">
+									<img src="img/snake.jpg" srcset="img/snake@2x.jpg 2x" alt="snake">
+								</div>
+								<h4 class="works__item-title">Game "Snake"</h4>
+								<time class="works__item-date" datetime="2018-01-20">Январь, 2018</time>
+							</a>
+						</li>
+						<li class="works__item sites">
+							<a href="#glazer" class="works__link" data-modal="modal-works">
+								<div class="works__img">
+									<img src="img/glazer.jpg" srcset="img/glazer@2x.jpg 2x" alt="glazer">
+								</div>
+								<h4 class="works__item-title">Landing "Glazer"</h4>
+								<time class="works__item-date" datetime="2017-11-10">Ноябрь, 2017</time>
+							</a>
+						</li>
+						<li class="works__item sites">
 							<a href="#sedona" class="works__link" data-modal="modal-works">
 								<div class="works__img">
-									<img src="img/tanner.jpg" alt="tanner">
+									<img src="img/sedona.jpg" srcset="img/sedona@2x.jpg 2x" alt="sedona">
 								</div>
-								<h4 class="works__item-title">Shop "Tanner"</h4>
-								<time class="works__item-date" datetime="2018-01-10">Январь, 2018</time>
-							</a>
-						</li>
-						<li class="works__item sites">
-							<a href="" class="works__link" data-modal="modal-works">
-								<div class="works__img">
-									<img src="img/tanner.jpg" alt="tanner">
-								</div>
-								<h4 class="works__item-title">Shop "Tanner"</h4>
-								<time class="works__item-date" datetime="2018-01-10">Январь, 2018</time>
-							</a>
-						</li>
-						<li class="works__item sites">
-							<a href="" class="works__link" data-modal="modal-works">
-								<div class="works__img">
-									<img src="img/tanner.jpg" alt="tanner">
-								</div>
-								<h4 class="works__item-title">Shop "Tanner"</h4>
-								<time class="works__item-date" datetime="2018-01-10">Январь, 2018</time>
-							</a>
-						</li>
-						<li class="works__item js">
-							<a href="" class="works__link" data-modal="modal-works">
-								<div class="works__img">
-									<img src="img/tanner.jpg" alt="tanner">
-								</div>
-								<h4 class="works__item-title">Shop "Tanner"</h4>
-								<time class="works__item-date" datetime="2018-01-10">Январь, 2018</time>
-							</a>
-						</li>
-						<li class="works__item sites">
-							<a href="" class="works__link" data-modal="modal-works">
-								<div class="works__img">
-									<img src="img/tanner.jpg" alt="tanner">
-								</div>
-								<h4 class="works__item-title">Shop "Tanner"</h4>
-								<time class="works__item-date" datetime="2018-01-10">Январь, 2018</time>
+								<h4 class="works__item-title">Sedona (training)"</h4>
+								<time class="works__item-date" datetime="2017-10-10">Октябрь, 2017</time>
 							</a>
 						</li>
 					</ul>
@@ -392,7 +374,7 @@
 			<div class="footer__wrap">
 				<ul class="footer__social-list">
 					<li class="footer__social-item">
-						<a href="#" class="footer__social-link">
+						<a href="https://www.linkedin.com/in/mykola-ryzhkov/" class="footer__social-link" target="_blank">
 							<svg class="social__icon social__icon--footer" viewBox="0 0 32 32">
 								<path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 
 									6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 
@@ -404,7 +386,7 @@
 						</a>
 					</li>
 					<li class="footer__social-item">
-						<a href="#" class="footer__social-link">
+						<a href="https://github.com/nickryz" class="footer__social-link" target="_blank">
 							<svg class="social__icon social__icon--footer" viewBox="0 0 32 32">
 								<path d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347
 									1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993
@@ -418,7 +400,7 @@
 						</a>
 					</li>
 					<li class="footer__social-item">
-						<a href="#" class="footer__social-link">
+						<a href="https://t.me/Nick_Ryzhkov" class="footer__social-link" target="_blank">
 							<svg class="social__icon social__icon--footer" viewBox="0 0 32 32">
 								<path d="M16 0c-8.838 0-16 7.162-16 16s7.162 16 16 16 16-7.163 16-16-7.163-16-16-16zM23.863 10.969l-2.625 12.369c-0.181 0.881-0.712 
 									1.087-1.45 0.681l-4-2.956-1.919 1.869c-0.225 0.219-0.4 0.4-0.8 0.4-0.519 0-0.431-0.194-0.606-0.688l-1.363-4.475-3.956-1.231c-0.856-0.262-0.862-0.85 
@@ -486,7 +468,7 @@
 				<div class="modalImg__wrap">
 				</div>
 				<div class="modal__btn-wrap">
-					<a href="" class="button" target="_blank">
+					<a href="#" class="button" target="_blank">
 						<span class="button__title">на сайт</span>
 					</a>
 				</div>
