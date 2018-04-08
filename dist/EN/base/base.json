@@ -1,48 +1,48 @@
 {
     "#tanner": 
             {
-                "imgSrc1": "img/works/tanner/tanner_1.jpg",
-                "imgSrc2": "img/works/tanner/tanner_2.jpg",
-                "imgSrc1@2x": "img/works/tanner/tanner_1@2x.jpg 2x",
-                "imgSrc2@2x": "img/works/tanner/tanner_2@2x.jpg 2x",
+                "imgSrc1": "../../img/works/tanner/tanner_1.jpg",
+                "imgSrc2": "../../img/works/tanner/tanner_2.jpg",
+                "imgSrc1@2x": "../../img/works/tanner/tanner_1@2x.jpg 2x",
+                "imgSrc2@2x": "../../img/works/tanner/tanner_2@2x.jpg 2x",
                 "siteLink": "https://nickryz.github.io/tanner/",
                 "title": "TANNER",
                 "text": "DISCRIPTION: &#160; Adaptive &#160; || &#160; HTML5 &#160; || &#160;  CSS3 &#160; || &#160; PURE JavaScript &#160;  || &#160;  SVG animation"
             },
     "#snake": 
             {
-                "imgSrc1": "img/works/snake/snake.jpg",
-                "imgSrc1@2x": "img/works/snake/snake@2x.jpg",
+                "imgSrc1": "../../img/works/snake/snake.jpg",
+                "imgSrc1@2x": "../../img/works/snake/snake@2x.jpg",
                 "siteLink": "https://nickryz.github.io/snake-game/dist",
                 "title": "SNAKE",
                 "text": "DISCRIPTION: &#160; PURE JavaScript &#160;|| &#160; HTML5 &#160; || &#160; CSS3 &#160; || &#160; SVG"
             },
     "#glazer": 
             {
-                "imgSrc1": "img/works/glazer/glazer_1.jpg",
-                "imgSrc2": "img/works/glazer/glazer_2.jpg",
-                "imgSrc1@2x": "img/works/glazer/glazer_1@2x.jpg",
-                "imgSrc2@2x": "img/works/glazer/glazer_2@2x.jpg",
+                "imgSrc1": "../../img/works/glazer/glazer_1.jpg",
+                "imgSrc2": "../../img/works/glazer/glazer_2.jpg",
+                "imgSrc1@2x": "../../img/works/glazer/glazer_1@2x.jpg",
+                "imgSrc2@2x": "../../img/works/glazer/glazer_2@2x.jpg",
                 "siteLink": "https://nickryz.github.io/glaze/",
                 "title": "GLAZER",
                 "text": "DISCRIPTION: &#160; Without Adaptive &#160; || &#160; HTML5 &#160; || &#160;  CSS3"
             },
     "#sedona": 
             {
-                "imgSrc1": "img/works/sedona/sedona_1.jpg",
-                "imgSrc2": "img/works/sedona/sedona_2.jpg",
-                "imgSrc1@2x": "img/works/sedona/sedona_1@2x.jpg",
-                "imgSrc2@2x": "img/works/sedona/sedona_2@2x.jpg",
+                "imgSrc1": "../../img/works/sedona/sedona_1.jpg",
+                "imgSrc2": "../../img/works/sedona/sedona_2.jpg",
+                "imgSrc1@2x": "../../img/works/sedona/sedona_1@2x.jpg",
+                "imgSrc2@2x": "../../img/works/sedona/sedona_2@2x.jpg",
                 "siteLink": "https://nickryz.github.io/sedona/",
                 "title": "SEDONA",
                 "text": "DISCRIPTION: &#160; Adaptive &#160; || &#160; HTML5 &#160; || &#160;  CSS3"
             },
     "#todo": 
         {
-            "imgSrc1": "img/works/todo/todo_1.jpg",
-            "imgSrc2": "img/works/todo/todo_2.jpg",
-            "imgSrc1@2x": "img/works/todo/todo_1@2x.jpg",
-            "imgSrc2@2x": "img/works/todo/todo_2@2x.jpg",
+            "imgSrc1": "../../img/works/todo/todo_1.jpg",
+            "imgSrc2": "../../img/works/todo/todo_2.jpg",
+            "imgSrc1@2x": "../../img/works/todo/todo_1@2x.jpg",
+            "imgSrc2@2x": "../../img/works/todo/todo_2@2x.jpg",
             "siteLink": "https://nickryz.github.io/calendar/dist",
             "title": "TODO",
             "text": "DISCRIPTION: &#160; Adaptive &#160; || &#160; HTML5 &#160; || &#160;  CSS3 &#160; || &#160;  Java Script"
